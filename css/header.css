@@ -151,6 +151,10 @@
     width: 85px;
 }
 
+.right-menu .login .font-c{
+    margin-right: 6px;
+}
+
 .server > a {
     line-height: 32px;
 }

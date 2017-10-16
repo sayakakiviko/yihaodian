@@ -165,7 +165,6 @@
 
 /*右侧登录面板*/
 .banner-right {
-    overflow: hidden;
     top: 50px;
     right: 3px;
     padding-top: 52px;
@@ -329,6 +328,7 @@
     background-color: rgba(0, 0, 0, .15);
     text-align: center;
     line-height: 40px;
+    color: #666;
     z-index: 1;
 }
 
@@ -344,6 +344,9 @@
     right: 5px;
 }
 
+.qianggou-left:hover, .qianggou-right:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
 /*商品列表*/
 .qianggou-con li a {
     float: left;
@@ -407,6 +410,7 @@
     height: 50px;
     background-color: rgba(255, 255, 255, .75);
     text-align: center;
+    color: #333;
 }
 
 .sale-tit:hover div {
@@ -421,7 +425,7 @@
 .sale-tit div h4 + p {
     margin: 10px auto;
     width: 30px;
-    border-top: 1px solid #000;
+    border-top: 1px solid #333;
 }
 
 /*团购*/
