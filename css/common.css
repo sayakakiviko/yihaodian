@@ -1,0 +1,182 @@
+body, div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, input, select, button, textarea, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1280px;
+    background-color: #f5f5f5;
+    font: 12px "Microsoft Yahei", "Arial", sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+i, em {
+    font-style: normal;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+/*不用a包裹块级标签也可以让它做跳转*/
+.link-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*一号店样式*/
+.car-none, .login-pic, .vip-list em, .qianggou, .marking {
+    background-image: url("../images/index.png");
+}
+
+.rank-con-list i {
+    background-image: url("../images/index2.png");
+}
+
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 1228px;
+}
+
+.margin-b {
+    margin-bottom: 20px;
+}
+
+.bg {
+    background-color: #fff;
+}
+
+.font-c, .site-search-tips a:hover, .site-hot-city a:hover, .city-list a:hover, .right-menu a:hover, .search-tips a:hover, .search-nav a:hover, .banner-nav > li:hover > i, .banner-right p:hover, .login-btn a, .vip-list a:hover p, .more:hover,
+.rank-con-list li:hover p, .rig-con p + p, .rig-con li:hover p, .main-like b, #footer a:hover {
+    color: #ff4040;
+}
+
+.top-tit-wrap {
+    margin-bottom: 10px;
+    height: 32px;
+    background: url("../images/top.png") no-repeat;
+    border-top: 1px solid #fb6233;
+    font-weight: normal;
+    text-align: center;
+}
+
+.top-tit {
+    margin: -4px auto;
+    width: 140px;
+    height: 32px;
+    background-color: #fb6233;
+    font-size: 20px;
+    color: #fff;
+}
+
+/*团购过渡连接*/
+.left-link {
+    top: 0;
+    left: -4px;
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid #c84e4e;
+}
+
+.right-link {
+    top: 0;
+    right: -4px;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #c84e4e;
+}
+
+/*字体大小*/
+.f-siz14 {
+    font-size: 14px;
+}
+
+.f-siz16 {
+    font-size: 16px;
+}
+
+.f-siz18 {
+    font-size: 18px;
+}
+
+.f-siz20 {
+    font-size: 20px;
+}
+
+.f-siz22 {
+    font-size: 22px;
+}
+
+.f-siz24 {
+    font-size: 24px;
+}
+
+.f-siz26 {
+    font-size: 26px;
+}
+
+.f-siz28 {
+    font-size: 28px;
+}
+
+.f-siz30 {
+    font-size: 30px;
+}
+
+.c666 {
+    color: #666;
+}

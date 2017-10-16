@@ -1,0 +1,300 @@
+/*顶部导航栏*/
+.head {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 30px;
+    color: #666;
+}
+
+.nav-wrap {
+    background-color: #f4f4f4;
+    z-index: 3;
+}
+
+/*城市列表*/
+.site > p {
+    position: relative;
+    padding: 0 10px;
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+    z-index: 1;
+}
+
+.site:hover > p {
+    background-color: #fff;
+    border-left-color: #e5e5e5;
+    border-right-color: #e5e5e5;
+    border-bottom-color: #fff;
+}
+
+.site:hover .site-con {
+    display: block;
+}
+
+/*城市搜索*/
+.site-con {
+    overflow: hidden;
+    top: 30px;
+    left: 0;
+    padding: 15px 0 20px 15px;
+    width: 720px;
+    border: 1px solid #dbdbdb;
+}
+
+.site-search, .site-hot, .site-hot-city, .site-zimu, .city-list {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.site-tit {
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: default;
+}
+
+.site-con input {
+    width: 168px;
+    height: 26px;
+    border: 1px solid #ccc;
+    text-indent: 5px;
+}
+
+.icon-sousuo1 {
+    top: -1px;
+    left: 85px;
+    width: 20px;
+    height: 26px;
+    color: #999;
+}
+
+.site-search-tips {
+    top: 27px;
+    left: 74px;
+    padding: 0 10px;
+    width: 148px;
+    max-height: 170px;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+.site-search-tips a {
+    display: block;
+}
+
+/*热门城市*/
+.site-hot {
+    border-bottom: 1px dotted #ccc;
+}
+
+.site-hot-city {
+    margin-left: 4px;
+    width: 610px;
+    line-height: 25px;
+}
+
+.site-hot-city a {
+    padding-right: 20px;
+}
+
+/*字母查找*/
+.zimu-list {
+    width: 600px;
+}
+
+.zimu-list a {
+    display: inline-block;
+    width: 22px;
+    background-color: #eee;
+    line-height: 20px;
+    text-align: center;
+    color: #999;
+}
+
+.zimu-list a:hover {
+    background-color: #ff4040;
+    color: #fff;
+}
+
+/*城市列表*/
+.site-list {
+    overflow: auto;
+    height: 245px;
+}
+
+.city-tit {
+    top: 5px;
+    left: 16px;
+    font: 18px "Arial";
+    color: #ccc;
+}
+
+.city-list {
+    padding-right: 10px;
+    width: 652px;
+}
+
+.city-list a {
+    margin-right: 30px;
+}
+
+/*右侧菜单*/
+.right-menu > li {
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    width: 68px;
+    height: 30px;
+}
+
+.right-menu .login {
+    padding-top: 2px;
+    width: 85px;
+}
+
+.server > a {
+    line-height: 32px;
+}
+
+/*客户服务 企业服务*/
+.server {
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+}
+
+.server:hover {
+    background-color: #fff;
+    border-left-color: #e5e5e5;
+    border-right-color: #e5e5e5;
+}
+
+.icon-down-trangle {
+    top: 0;
+    right: 10px;
+    transition: all .3s;
+}
+
+.server:hover .icon-down-trangle {
+    transform: rotate(180deg);
+    transition: all .5s;
+}
+
+.server:hover .icon-top-trangle, .server:hover .server-menu {
+    display: block;
+}
+
+.server-menu {
+    top: 30px;
+    left: -1px;
+    width: 88px;
+    border: 1px solid #e5e5e5;
+    border-top-color: transparent;
+    text-indent: 10px;
+}
+
+/*搜索栏*/
+/*logo*/
+.logo {
+    margin: 0 63px 0 -1px;
+    width: 205px;
+    height: 150px;
+}
+
+.logo img {
+    width: 261px;
+    height: 150px;
+}
+
+/*搜索*/
+.search-wrap {
+    width: 750px;
+    padding-top: 32px;
+}
+
+/*搜索框*/
+.search-text {
+    width: 754px;
+}
+
+.search-text input {
+    width: 685px;
+    height: 40px;
+    border: 2px solid #ff4040;
+    text-indent: 15px;
+}
+
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 50px;
+    height: 44px;
+    background-color: #ff4040;
+}
+
+.search-btn .icon-sousuo1 {
+    top: 10px;
+    left: 11px;
+    color: #fff;
+}
+
+/*搜索推荐提示*/
+.search-tips {
+    margin: 5px 0 10px 0;
+}
+
+.search-tips a {
+    margin-right: 16px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+/*搜索栏导航*/
+.search-nav a {
+    margin-right: 25px;
+    font: 16px Helvetica Neue, tahoma, Arial, Verdana, "Microsoft YaHei", "Hiragino Sans GB", "\5b8b\4f53";
+    color: #333;
+}
+
+/*购物车*/
+.cart {
+    top: 39px;
+    right: 0;
+    width: 132px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.car {
+    border: 1px solid #ccc;
+    z-index: 2;
+}
+
+.cart:hover .car {
+    border-bottom-color: #fff;
+}
+
+.car .icon-gouwuchekong {
+    margin-right: 10px;
+}
+
+.car-show {
+    top: 41px;
+    right: 0;
+    padding-bottom: 50px;
+    width: 358px;
+    border: 1px solid #ccc;
+    text-align: center;
+    z-index: 1;
+}
+
+.cart:hover .car-show {
+    display: block;
+}
+
+.car-none {
+    display: inline-block;
+    margin-top: 52px;
+    width: 117px;
+    height: 77px;
+    background-position: -261px -31px;
+}

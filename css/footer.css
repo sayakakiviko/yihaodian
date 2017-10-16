@@ -1,0 +1,93 @@
+/*底部*/
+#footer {
+    margin-top: 12px;
+    padding: 30px 0 20px;
+    background-color: #fff;
+    color: #666;
+}
+
+.footer-info {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-info .info-box {
+    float: left;
+    width: 176px;
+    margin: 0 65px;
+}
+
+.info-box img {
+    float: left;
+    width: 66px;
+    height: 66px;
+    margin-right: 10px;
+}
+
+.info-box div {
+    float: right;
+}
+
+.info-box p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/*底部导航*/
+.footer-nav {
+    padding: 30px 0;
+}
+
+.footer-nav li {
+    float: left;
+    width: 170px;
+    padding-left: 25px;
+}
+
+.footer-nav h4 {
+    margin-bottom: 10px;
+}
+
+.footer-nav a {
+    margin-bottom: 5px;
+}
+
+.footer-nav .clearfix {
+    width: 280px;
+}
+
+.footer-nav div {
+    float: left;
+    margin-right: 50px;
+}
+
+.footer-nav img {
+    width: 90px;
+    height: 90px;
+}
+
+/*底部链接*/
+.footer-link {
+    width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-link p {
+    margin-bottom: 15px;
+}
+
+.footer-link p a {
+    margin: 0 10px;
+}
+
+.footer-link div a {
+    margin: 0 5px;
+}
+
+.footer-link img {
+    width: 91px;
+    height: 31px;
+}
