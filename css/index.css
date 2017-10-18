@@ -1697,8 +1697,8 @@
 
 .fixed-right .fixed-car {
     width: 21px;
-    height: 100px;
-    padding: 10px 7px 0;
+    height: 115px;
+    padding: 10px 7px 12px;
     background-color: #454545;
     line-height: 18px;
 }
@@ -1708,6 +1708,16 @@
     width: 21px;
     background-color: #454545;
     margin-bottom: 5px;
+}
+
+.fixed-car em{
+    display: block;
+    width: 20px;
+    margin-top: 5px;
+    background-color: #ff4040;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
 }
 
 /*二维码栏*/
