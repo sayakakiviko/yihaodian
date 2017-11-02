@@ -54,7 +54,6 @@
     float: right;
     width: 648px;
     border-bottom: 1px solid #eee;
-    text-indent: -5px;
 }
 
 .nav-show-tit {
@@ -63,6 +62,8 @@
 }
 
 .nav-show-con a {
+    /*可以解决一行文字遇到边界被拆开换行的问题，让这行文字变为一个整体，遇到边界不能在上面显示了则整体换行*/
+    display: inline-block;
     margin-right: 20px;
 }
 
