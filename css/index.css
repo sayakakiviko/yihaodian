@@ -31,7 +31,7 @@
 .nav-show-wrap {
     top: 0;
     left: 205px;
-    padding: 25px;
+    padding: 25px 0 25px 25px;
     width: 1025px;
     color: #666;
     box-shadow: 4px 0 6px rgba(0, 0, 0, 0.2);
@@ -46,20 +46,24 @@
     width: 760px;
 }
 
+.nav-show-list li{
+    margin-bottom: 5px;
+}
+
 .nav-show-con {
-    padding-right: 40px;
+    float: right;
     width: 648px;
     border-bottom: 1px solid #eee;
     text-indent: -5px;
 }
 
 .nav-show-tit {
-    width: 72px;
+    width: 92px;
     text-align: right;
 }
 
 .nav-show-con a {
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .nav-show-con a:hover {
@@ -68,7 +72,6 @@
 
 /*右侧商标logo*/
 .banner-nav-right {
-    padding-left: 12px;
     width: 250px;
     border-left: 1px solid #eee;
 }
@@ -927,6 +930,7 @@
 /******国产食品******/
 /*左侧面板*/
 .left-con {
+    overflow: hidden;
     padding-top: 15px;
     width: 236px;
     height: 415px;
@@ -1018,7 +1022,7 @@
 }
 
 .left-con-bottom {
-    height: 45px;
+    height: 60px;
     background-color: rgba(255, 255, 255, .3);
 }
 
